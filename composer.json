@@ -1,0 +1,31 @@
+{
+  "name": "dusank/4chan",
+  "license": "MIT",
+  "type": "library",
+  "description": "4chan API library",
+  "keywords": ["4chan", "api"],
+  "homepage": "https://github.com/DusanKasan/4chan",
+  "authors": [
+    {
+      "name": "Dusan Kasan",
+      "email": "dusan@kasan.sk",
+      "homepage": "http://kasan.sk",
+      "role": "Developer"
+    }
+  ],
+  "require-dev": {
+    "phpspec/phpspec": "~2.0",
+    "henrikbjorn/phpspec-code-coverage": "*",
+    "squizlabs/php_codesniffer": "~2.0",
+    "phpmd/phpmd" : "2.2.1",
+    "ciaranmcnulty/phpspec-typehintedmethods": "*"
+  },
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DusanKasan\\Chan\\": "src/"
+    }
+  }
+}
